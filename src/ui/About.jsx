@@ -5,14 +5,14 @@ function About() {
         <div className="bg-[#D3D3D3] border-y-2 border-y-[#0a192f]">
           <div className="max-w-[1000px] w-full flex justify-center gap-8">
             <div className="sm:text-right pb-8 pl-4 pt-4">
-              <p className="text-5xl sm:text-6xl font-bold inline border-b-4 border-[#0a192f]  hover:text-yellow-800 hover:border-yellow-800 duration-1000 hover:cursor-default">
+              <p className="text-4xl sm:text-6xl font-bold inline border-b-4 border-[#0a192f]  hover:text-yellow-800 hover:border-yellow-800 duration-1000 hover:cursor-default">
                 About
               </p>
             </div>
           </div>
           <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
             <div className="sm:text-right">
-              <p className="text-4xl sm:text-5xl font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
+              <p className="text-3xl text-center sm:text-center sm:text-5xl font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
                 Hi, Nice to meet you!
                 <br /> Please take a look around.
               </p>
