@@ -9,28 +9,28 @@ import Contact from "./ui/Contact";
 
 const router = createHashRouter([
   {
-    path: "/my-portfolio",
+    path: "/",
     element: <AppLayout />,
     errorElement: <Error />,
     children: [
       {
-        path: "/my-portfolio",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "skills",
+        path: "/skills",
         element: <Skills />,
       },
       {
-        path: "work",
+        path: "/work",
         element: <Work />,
       },
       {
-        path: "contact",
+        path: "/contact",
         element: <Contact />,
       },
     ],
