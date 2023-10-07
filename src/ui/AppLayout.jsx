@@ -23,7 +23,7 @@ function AppLayout() {
         className="fixed w-full h-[60px] flex justify-between items-center px-4
      text-gray-300 border-b-2 bg-[#0a192f]"
       >
-        <Link to="/">
+        <Link to="/my-portfolio">
           <div className="ml-[-10px] py-4">
             <img
               src={Logo}
