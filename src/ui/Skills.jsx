@@ -9,7 +9,10 @@ import reduxImg from "../assets/redux1.png";
 
 function Skills() {
   return (
-    <div name="skills" className="bg-[#D3D3D3] text-[#0a192f] w-full h-screen">
+    <div
+      name="skills"
+      className="bg-[#D3D3D3] text-[#0a192f] w-full h-full sm:h-screen"
+    >
       {/*Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justtify-center w-full h-full">
         <div className="flex justify-center pt-15 sm:pt-20">
