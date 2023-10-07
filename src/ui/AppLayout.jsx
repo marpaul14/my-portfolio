@@ -25,12 +25,25 @@ function AppLayout() {
       >
         <Link to="/">
           <div className="ml-[-10px] py-4">
-            <img src={Logo} alt="logo" style={{ width: "55px" }} />
+            <img
+              src={Logo}
+              alt="logo"
+              style={{ width: "50px" }}
+              className="hover:scale-110 duration-500"
+            />
           </div>
         </Link>
         <Menu />
         <div onClick={handleToggle} className="md:hidden z-10">
-          {!navbar ? <FaBars /> : <FaTimes />}
+          {!navbar ? (
+            <div className=" hover:border-2">
+              <FaBars className="hover:scale-110" />{" "}
+            </div>
+          ) : (
+            <div className="hover:border-2">
+              <FaTimes className="hover:scale-110" />{" "}
+            </div>
+          )}
         </div>
         <MobileView navbar={navbar} handleClickLink={handleClickLink} />
         <SocialIcons />

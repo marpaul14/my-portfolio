@@ -10,23 +10,33 @@ function MobileView({ navbar, handleClickLink }) {
       }
     >
       <Link to="/" onClick={handleClickLink}>
-        <li className="py-6 text-4xl hover:scale-110">Home</li>
+        <li className="py-6 text-4xl hover:scale-110 hover:text-yellow-800">
+          Home
+        </li>
       </Link>
 
       <Link to="/about" onClick={handleClickLink}>
-        <li className="py-6 text-4xl hover:scale-110">About</li>
+        <li className="py-6 text-4xl hover:scale-110 hover:text-yellow-800">
+          About
+        </li>
       </Link>
 
       <Link to="/skills" onClick={handleClickLink}>
-        <li className="py-6 text-4xl hover:scale-110">Skills</li>
+        <li className="py-6 text-4xl hover:scale-110 hover:text-yellow-800">
+          Skills
+        </li>
       </Link>
 
       <Link to="/work" onClick={handleClickLink}>
-        <li className="py-6 text-4xl hover:scale-110">Work</li>
+        <li className="py-6 text-4xl hover:scale-110 hover:text-yellow-800">
+          Work
+        </li>
       </Link>
 
       <Link to="/contact" onClick={handleClickLink}>
-        <li className="py-6 text-4xl hover:scale-110">Contact</li>
+        <li className="py-6 text-4xl hover:scale-110 hover:text-yellow-800">
+          Contact
+        </li>
       </Link>
     </ul>
   );

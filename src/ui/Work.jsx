@@ -1,4 +1,4 @@
-import PizzaImg from "../assets/projects/pizza.jpg";
+import PizzaImg from "../assets/projects/pizza1.png";
 // import realEstate from "../assets//projects/realestate.jpg";
 import MoviehubImg from "../assets/projects/moviehub.jpg";
 import TravelImg from "../assets/projects/travellist.png";
@@ -10,7 +10,7 @@ function Work() {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full] border-y-2 border-y-[#0a192f]">
         <div className="pb-8 pt-20">
-          <p className="py-10 text-2xl sm:text-4xl text-center font-semibold">
+          <p className="py-10 text-3xl sm:text-4xl text-center font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
             Check out some of my recent work.
           </p>
         </div>
@@ -29,12 +29,12 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marpaul14.github.io/Fast-React-Pizza/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/marpaul14/Fast-React-Pizza">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
                 </a>
@@ -52,12 +52,12 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marpaul14.github.io/moviehub/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/marpaul14/moviehub">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
                 </a>
@@ -75,12 +75,12 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marpaul14.github.io/my-travel-list/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/marpaul14/my-travel-list">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
                 </a>
@@ -98,12 +98,12 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://marpaul14.github.io/todolist/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/marpaul14/todolist">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
                 </a>

@@ -5,20 +5,20 @@ function About() {
         <div className="bg-[#D3D3D3] border-y-2 border-y-[#0a192f]">
           <div className="max-w-[1000px] w-full flex justify-center gap-8">
             <div className="sm:text-right pb-8 pl-4 pt-4">
-              <p className="text-5xl sm:text-6xl font-bold inline border-b-4 border-[#0a192f]">
+              <p className="text-5xl sm:text-6xl font-bold inline border-b-4 border-[#0a192f]  hover:text-yellow-800 duration-1000 hover:cursor-default">
                 About
               </p>
             </div>
           </div>
           <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
             <div className="sm:text-right">
-              <p className="text-4xl sm:text-5xl font-semibold">
+              <p className="text-4xl sm:text-5xl font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
                 Hi, Nice to meet you!
                 <br /> Please take a look around.
               </p>
             </div>
             <div>
-              <p className="text-xl sm:text-2xl pb-5 text-yellow-800 font-semibold">
+              <p className="text-xl sm:text-2xl pb-5 text-yellow-800 sm:text-[#0a192f] font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
                 My goal is to secure an entry-level to <br /> mid-level
                 front-end web developer position where I can continue to refine
                 my skills, learn from experienced professionals, and contribute
