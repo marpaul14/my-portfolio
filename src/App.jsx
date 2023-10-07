@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import AppLayout from "./ui/AppLayout";
 import Error from "./ui/Error";
 import Home from "./ui/Home";
@@ -7,7 +7,7 @@ import Skills from "./ui/Skills";
 import Work from "./ui/Work";
 import Contact from "./ui/Contact";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/my-portfolio",
     element: <AppLayout />,
