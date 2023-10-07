@@ -7,7 +7,7 @@ function Contact() {
       <form
         method="POST"
         action="https://getform.io/f/66fdaf41-87cf-405e-8171-2297ecd141a2"
-        className="flex flex-col max-w-[600px] w-full"
+        className="flex flex-col max-w-[400px] w-full sm:max-w-[600px] pt-20 sm:pt-3"
       >
         <div className="pb-2 sm:pb-8 text-center">
           <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#0a192f] text-#0a192f  hover:text-yellow-800 duration-1000 hover:cursor-default hover:border-yellow-800">
