@@ -9,12 +9,12 @@ import Contact from "./ui/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/my-portfolio",
     element: <AppLayout />,
     errorElement: <Error />,
     children: [
       {
-        path: "/",
+        path: "/my-portfolio",
         element: <Home />,
       },
       {

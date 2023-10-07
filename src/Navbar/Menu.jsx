@@ -5,7 +5,7 @@ function Menu() {
     <>
       <nav>
         <ul className=" hidden font-bold text-md md:flex">
-          <Link to="/">
+          <Link to="/my-portfolio">
             <li className=" hover:bg-yellow-800 hover:scale-110">Home</li>
           </Link>
 
