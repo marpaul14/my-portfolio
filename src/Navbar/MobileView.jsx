@@ -11,7 +11,7 @@ function MobileView({ navbar, handleClickLink }) {
         }
       >
         <Link
-          to="/my-portfolio"
+          to="/"
           onClick={handleClickLink}
           className=" hover:scale-110 hover:text-yellow-800"
         >
