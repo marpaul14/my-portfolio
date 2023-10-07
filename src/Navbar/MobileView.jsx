@@ -7,7 +7,7 @@ function MobileView({ navbar, handleClickLink }) {
         className={
           !navbar
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center font-bold items-center"
+            : "absolute top-0 left-0 w-screen h-screen bg-[#0a192f] flex flex-col justify-center font-bold items-center"
         }
       >
         <Link
