@@ -37,11 +37,11 @@ function AppLayout() {
         <div onClick={handleToggle} className="md:hidden z-10">
           {!navbar ? (
             <div className=" hover:border-2">
-              <FaBars className="hover:scale-110" />{" "}
+              <FaBars className="hover:scale-110" />
             </div>
           ) : (
             <div className="hover:border-2">
-              <FaTimes className="hover:scale-110" />{" "}
+              <FaTimes className="hover:scale-110" />
             </div>
           )}
         </div>

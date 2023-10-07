@@ -8,8 +8,8 @@ function Work() {
   return (
     <div name="work" className="bg-[#D3D3D3] w-full md:h-screen text-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full] border-y-2 border-y-[#0a192f]">
-        <div className="pb-8 pt-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full] border-y-2 border-y-[#0a192f] md:flex md:flex-col-2">
+        <div className="pb-5 pt-10 sm:pt-20">
           <p className="py-10 text-3xl sm:text-4xl text-center font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
             Check out some of my recent work.
           </p>
@@ -24,7 +24,7 @@ function Work() {
           >
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="ml-3 text-2xl font-bold text-white tracking-wider">
+              <span className="ml-3 text-2xl font-bold text-white tracking-wider hover:text-[#0a192f] duration-1000 hover:cursor-default">
                 Fast React Co.
               </span>
               <div className="pt-8 text-center">
@@ -47,7 +47,7 @@ function Work() {
             className="shadow-lg shadow-yellow-800 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider ml-7">
+              <span className="text-2xl font-bold text-white tracking-wider ml-7 hover:text-[#0a192f] duration-1000 hover:cursor-default">
                 MovieHub
               </span>
               <div className="pt-8 text-center">
@@ -70,7 +70,7 @@ function Work() {
             className="shadow-lg shadow-yellow-800 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider ml-7">
+              <span className="text-2xl font-bold text-white tracking-wider ml-7 hover:text-[#0a192f] duration-1000 hover:cursor-default">
                 Travel List
               </span>
               <div className="pt-8 text-center">
@@ -93,7 +93,7 @@ function Work() {
             className="shadow-lg shadow-yellow-800 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider ml-8">
+              <span className="text-2xl font-bold text-white tracking-wider ml-8 hover:text-[#0a192f] duration-1000 hover:cursor-default">
                 To-do-List
               </span>
               <div className="pt-8 text-center">

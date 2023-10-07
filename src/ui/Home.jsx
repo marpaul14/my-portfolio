@@ -6,7 +6,7 @@ function Home() {
           <p className="text-yellow-800 text-2xl sm:text-4xl py-2 hover:text-[#0a192f] duration-1000 hover:cursor-default">
             Hi, my name is
           </p>
-          <h1 className="text-4xl sm:text-7xl font-bold text-[#0a192f] hover:text-yellow-800 duration-1000 hover:cursor-default">
+          <h1 className="text-4xl sm:text-7xl md:text-7xl font-bold text-[#0a192f] hover:text-yellow-800 duration-1000 hover:cursor-default">
             Marpaul Jay Bunani
           </h1>
           <h2 className="text-3xl sm:text-6xl font-bold text-[#0a192f] hover:text-yellow-800 duration-1000 hover:cursor-default">

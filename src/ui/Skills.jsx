@@ -24,22 +24,22 @@ function Skills() {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center gap-4 p-8">
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={htmlImg} alt="html logo" />
-            <p className="my-4 font-m">HTML</p>
+            <p className="my-4 font-semibold">HTML</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={cssImg} alt="css logo" />
-            <p className="my-4 font-m">CSS</p>
+            <p className="my-4 font-semibold">CSS</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={jsImg} alt="javascript logo" />
-            <p className="my-4 font-m">Javascript</p>
+            <p className="my-4 font-semibold">Javascript</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={reactImg} alt="react logo" />
-            <p className="my-4 font-m">ReactJs</p>
+            <p className="my-4 font-semibold">ReactJs</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
@@ -48,7 +48,7 @@ function Skills() {
               src={tailwindImg}
               alt="tailwindcss logo"
             />
-            <p className="my-4 font-m">Tailwind CSS</p>
+            <p className="my-4 font-semibold">Tailwind CSS</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
@@ -57,17 +57,17 @@ function Skills() {
               src={reactRouterImg}
               alt="react-router logo"
             />
-            <p className="my-4 pt-4 font-m">React-router</p>
+            <p className="my-4 pt-4 font-semibold">React-router</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={reduxImg} alt="redux logo" />
-            <p className="my-4 font-m">Redux</p>
+            <p className="my-4 font-semibold">Redux</p>
           </div>
 
           <div className="shadow-md shadow-yellow-800 hover:scale-110 hover:bg-[#0a192f] hover:text-white duration-500">
             <img className="w-20 mx-auto" src={githubImg} alt="github logo" />
-            <p className="my-4 font-m">Github</p>
+            <p className="my-4 font-semibold">Github</p>
           </div>
         </div>
       </div>
