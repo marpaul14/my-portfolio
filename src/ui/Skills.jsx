@@ -11,8 +11,8 @@ function Skills() {
   return (
     <div name="skills" className="bg-[#D3D3D3] text-[#0a192f] w-full h-screen">
       {/*Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justtify-center w-full h-full">
-        <div className="flex justify-center pt-15 sm:pt-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center h-full shadow-2xl">
+        <div className="flex justify-center">
           <p className="text-5xl sm:text-5xl font-bold inline border-b-4 border-[#0a192f] pt-[80px]  hover:text-yellow-800 duration-1000 hover:cursor-default hover:border-yellow-800">
             Skills
           </p>

@@ -1,14 +1,17 @@
-import PizzaImg from "../assets/projects/pizza1.png";
+import PizzaImg from "../assets/projects/getyo-pizza.png";
 // import realEstate from "../assets//projects/realestate.jpg";
 import MoviehubImg from "../assets/projects/moviehub.jpg";
 import TravelImg from "../assets/projects/travellist.png";
-import TodoImg from "../assets/projects/todolist.png";
+import PhilBankImg from "../assets/projects/phil-bank.png";
 
 function Work() {
   return (
-    <div name="work" className="bg-[#D3D3D3] w-full md:h-screen text-[#0a192f]">
+    <div
+      name="work"
+      className="bg-[#D3D3D3] w-full h-full md:h-[100dvh] text-[#0a192f]"
+    >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full] border-y-2 border-y-[#0a192f] md:flex md:flex-col-2">
+      <div className="max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full md:flex md:flex-col-2 shadow-2xl">
         <div className="pb-5 pt-10 sm:pt-20">
           <p className="py-10 text-3xl sm:text-4xl text-center font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
             Check out some of my recent work.
@@ -25,15 +28,15 @@ function Work() {
             {/*Hover effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="ml-3 text-2xl font-bold text-white tracking-wider hover:text-[#0a192f] duration-1000 hover:cursor-default">
-                Fast React Co.
+                Get&apos;yo Pizza Co.
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/Fast-React-Pizza/">
+                <a href="https://marpaul14.github.io/Getyo-Pizza">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/Fast-React-Pizza">
+                <a href="https://github.com/marpaul14/Getyo-Pizza">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
@@ -89,20 +92,20 @@ function Work() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${TodoImg})` }}
+            style={{ backgroundImage: `url(${PhilBankImg})` }}
             className="shadow-lg shadow-yellow-800 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ml-8 hover:text-[#0a192f] duration-1000 hover:cursor-default">
-                To-do-List
+                Phil-Bank
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/todolist/">
+                <a href="https://marpaul14.github.io/phil-bank/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/todolist">
+                <a href="https://github.com/marpaul14/phil-bank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>

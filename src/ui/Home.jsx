@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="bg-[#D3D3D3] w-full h-screen ">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-        <div className="border-y-2 mx-auto border-[#0a192f]">
+        <div className="border-b-2 mx-auto border-[#0a192f] shadow-2xl p-8">
           <p className="text-yellow-800 text-2xl sm:text-4xl py-2 hover:text-[#0a192f] duration-1000 hover:cursor-default">
             Hi, my name is
           </p>
