@@ -37,7 +37,7 @@ function SocialIcons() {
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href={Resume}
-            download="Resume"
+            download="Marpaul Resume"
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
