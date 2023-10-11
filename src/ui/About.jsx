@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div name="about" className="w-full h-screen bg-[#D3D3D3] text-[#0a192f]">
+    <div name="about" className="w-full h-screen bg-[#D3D3D3] text-[#0a192f] ">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="bg-[#D3D3D3] border-b-2 border-y-[#0a192f] shadow-2xl">
           <div className="max-w-[1000px] w-full flex justify-center gap-8">
