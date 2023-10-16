@@ -10,6 +10,8 @@ function SocialIcons() {
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://www.linkedin.com/in/marpaul-jay-bunani-51a2b327b/"
+            target="_blank"
+            rel="noreferrer"
           >
             LinkedIn <FaLinkedin size={30} />
           </a>
@@ -19,6 +21,8 @@ function SocialIcons() {
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://github.com/marpaul14"
+            target="_blank"
+            rel="noreferrer"
           >
             Github <FaGithub size={30} />
           </a>
@@ -28,6 +32,8 @@ function SocialIcons() {
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://twitter.com/marpaul_14"
+            target="_blank"
+            rel="noreferrer"
           >
             Twitter <FaTwitter size={30} />
           </a>

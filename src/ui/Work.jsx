@@ -31,12 +31,20 @@ function Work() {
                 Get&apos;yo Pizza Co.
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/Getyo-Pizza">
+                <a
+                  href="https://marpaul14.github.io/Getyo-Pizza"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/Getyo-Pizza">
+                <a
+                  href="https://github.com/marpaul14/Getyo-Pizza"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
@@ -54,12 +62,20 @@ function Work() {
                 MovieHub
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/moviehub/">
+                <a
+                  href="https://marpaul14.github.io/moviehub/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/moviehub">
+                <a
+                  href="https://github.com/marpaul14/moviehub"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
@@ -77,12 +93,20 @@ function Work() {
                 Travel List
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/my-travel-list/">
+                <a
+                  href="https://marpaul14.github.io/my-travel-list/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/my-travel-list">
+                <a
+                  href="https://github.com/marpaul14/my-travel-list"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
@@ -100,12 +124,20 @@ function Work() {
                 Phil-Bank
               </span>
               <div className="pt-8 text-center">
-                <a href="https://marpaul14.github.io/phil-bank/">
+                <a
+                  href="https://marpaul14.github.io/phil-bank/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/marpaul14/phil-bank">
+                <a
+                  href="https://github.com/marpaul14/phil-bank"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
                     Code
                   </button>
