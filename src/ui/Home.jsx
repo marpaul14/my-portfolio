@@ -15,7 +15,8 @@ function Home() {
           <p className="text-yellow-800 py-4 max-w-[700px] text-2xl sm:text-3xl hover:text-[#0a192f] duration-1000 hover:cursor-default">
             I&apos;m on a mission to transform ideas into pixel-perfect
             realities.
-            <br /> With a strong foundation in HTML, CSS, JavaScript and React.
+            <br /> With a strong foundation in HTML/CSS, JavaScript, Reactjs and
+            Tailwind CSS.
           </p>
         </div>
       </div>
