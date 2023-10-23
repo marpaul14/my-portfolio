@@ -3,6 +3,7 @@ import PizzaImg from "../assets/projects/getyo-pizza.png";
 import MoviehubImg from "../assets/projects/moviehub.jpg";
 import TravelImg from "../assets/projects/travellist.png";
 import PhilBankImg from "../assets/projects/phil-bank.png";
+import NikeStoreImg from "../assets/projects/justdoit-sensation.png";
 
 function Work() {
   return (
@@ -46,6 +47,37 @@ function Work() {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-[#0a192f] font-bold text-lg hover:scale-110">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${NikeStoreImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                JustDoIt Sensation
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://justdoit-sensation-store.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/marpaul14/justdoit-sensation-store"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -145,29 +177,6 @@ function Work() {
               </div>
             </div>
           </div>
-
-          {/* <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div> */}
 
           {/* <div
             style={{ backgroundImage: `url(${realEstate})` }}
