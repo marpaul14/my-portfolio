@@ -19,13 +19,13 @@ function About() {
             </div>
             <div>
               <p className="text-xl sm:text-2xl pb-5 text-yellow-800 sm:text-[#0a192f] font-semibold  hover:text-yellow-800 duration-1000 hover:cursor-default">
-                My goal is to secure an entry-level to <br /> mid-level
-                front-end web developer position where I can continue to refine
-                my skills, learn from experienced professionals, and contribute
-                to creating visually stunning and highly functional web
-                applications. I am dedicated to staying current with industry
-                trends and best practices, especially in the realm of React.js,
-                to excel in this ever-evolving field.
+                My goal is to secure a junior level front-end web developer
+                position where I can continue to refine my skills, learn from
+                experienced professionals, and contribute to creating visually
+                stunning and highly functional web applications. I am dedicated
+                to staying current with industry trends and best practices,
+                especially in the realm of React.js, to excel in this
+                ever-evolving field.
               </p>
             </div>
           </div>
