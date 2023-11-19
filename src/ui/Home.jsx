@@ -16,7 +16,7 @@ function Home() {
             I&apos;m on a mission to transform ideas into pixel-perfect
             realities.
             <br /> With a strong foundation in HTML/CSS, JavaScript, Reactjs,
-            Nodejs, MySQL and Tailwind CSS.
+            Redux, Nodejs, MySQL and Tailwind CSS.
           </p>
         </div>
       </div>

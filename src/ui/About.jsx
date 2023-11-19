@@ -24,7 +24,7 @@ function About() {
                 experienced professionals, and contribute to creating visually
                 stunning and highly functional web applications. I am dedicated
                 to staying current with industry trends and best practices,
-                especially in the realm of React.js, to excel in this
+                especially in the realm of Frontend Development to excel in this
                 ever-evolving field.
               </p>
             </div>
