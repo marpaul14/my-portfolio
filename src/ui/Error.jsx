@@ -12,7 +12,7 @@ function Error() {
           className="border-4 px-3 py-2 border-[#0a192f] hover:bg-[#0a192f] hover:text-white"
           onClick={() => navigate(-1)}
         >
-          &larr; Go back
+          &larr; Go back! 👋
         </button>
       </div>
     </div>
